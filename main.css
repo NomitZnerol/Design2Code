@@ -32,6 +32,11 @@ h1{
 
 }
 
+h1:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 li{
 	display: inline-block;
 	font-family: Raleway;
@@ -43,6 +48,10 @@ li{
 a{
 	text-decoration: none;
 
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 form{
@@ -74,6 +83,10 @@ input{
 	top: 11px;
 	border: 1px solid lightgrey;
 	border-radius: 5px;
+}
+
+.glass:hover{
+	cursor: pointer;
 }
 
 table{
@@ -115,4 +128,12 @@ span{
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0px 5px;
+}
+
+td:first-child:hover{
+	text-decoration: underline;
+}
+
+td:nth-child(3):hover{
+	text-decoration: underline;
 }
