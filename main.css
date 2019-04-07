@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+nav{
+	background-color: lightgrey;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+}
+
+.logo{
+	font-family: Raleway;
+}
+
+.list{
+	list-style: none;
+	display: inline;
+	margin-left: 81%;
+}
+
+h1{
+	display: inline;
+	font-size: 26px;
+	margin-left: 10px;
+
+}
+
+li{
+	display: inline-block;
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 900;
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+form{
+	padding-top: 80px;
+	margin-left: 150px;
+}
+
+label{
+	font-family: Raleway;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 700;
+}
+
+input{
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 400px;
+	height: 30px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+.glass{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 11px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+table{
+	margin-top: 40px;
+	margin-left: 150px;
+}
+
+td{
+	border-collapse: collapse;
+	border: 1px solid lightgrey;
+	font-family: Raleway;
+	font-size: 16px;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+td:nth-child(2){
+	width: 180px;
+}
+
+p{
+	margin-bottom:20px;
+	margin-left: 150px;
+	font-family: Raleway;
+	font-size: 16px;
+	color: darkgrey;
+}
+
+.margin{
+	margin-top:40px;
+}
+
+span{
+	color: blue;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0px 5px;
+}
